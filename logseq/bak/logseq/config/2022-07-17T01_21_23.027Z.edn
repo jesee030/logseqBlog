@@ -50,7 +50,7 @@
  ;; :export/bullet-indentation :tab
 
 
- When :all-pages-public? true, export repo would export all pages within that repo.
+;;  When :all-pages-public? true, export repo would export all pages within that repo.
  ;; Regardless of whether you've set any page to public or not.
  ;; Example:
  ;; :publishing/all-pages-public? true
@@ -200,7 +200,7 @@
 
  :ref/linked-references-collapsed-threshold 50
 
- :favorites ["vue" "How to take dummy notes?"]
+ :favorites ["How to take dummy notes?"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
